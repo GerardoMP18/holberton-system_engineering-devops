@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-#For Best School loop
-for ((i=0; i<=9; i++));
-do
-	echo "Best School"
-done
