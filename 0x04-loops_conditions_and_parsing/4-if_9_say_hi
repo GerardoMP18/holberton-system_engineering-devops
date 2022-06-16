@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #If 9, say Hi!
-i=1
+i=0
 while [ $i -le 9 ];
 do
 	if [ $i -eq 9 ];
