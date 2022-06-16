@@ -1,2 +1,5 @@
 #!/usr/bin/env bash
-echo "Esto es una prueba"
+for ((i=0; i<=9; i++));
+do
+	echo "Best School"
+done
