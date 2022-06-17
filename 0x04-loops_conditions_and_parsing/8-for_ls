@@ -3,5 +3,5 @@
 LIST=$(ls)
 for i in $LIST;
 do
-	echo "$i"
+	echo "$i" | cut -d'-' -f2 
 done
