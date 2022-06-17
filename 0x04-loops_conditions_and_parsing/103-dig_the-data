@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#sort the apache-access file from largest to smallest
+file=apache-access.log
+awk '{ print $1,$9 }' $file | sort -n | uniq -c | sort -r
