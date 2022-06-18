@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#Script that kills the process but with a trap to infinity and beyond
+trap "echo I am invincible!!!" SIGTERM
+while true;
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
